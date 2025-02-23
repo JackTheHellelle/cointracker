@@ -1122,7 +1122,7 @@ rect.legend-mouseover-inactive,
 `,q2=Ct.span`
   text-align: center;
   display: block;
-`;function V2(){const{isLoading:n,data:e}=Yc({queryKey:["allCoins"],queryFn:$C});return me.jsxs(F2,{children:[me.jsx(I2,{children:me.jsx(j2,{children:"코인"})}),n?me.jsx(q2,{children:"Loading..."}):me.jsx(W2,{children:e==null?void 0:e.map(t=>me.jsx(U2,{children:me.jsxs(Xl,{to:`/${t.id}`,state:{name:t.name},children:[me.jsx(G2,{src:`https://cryptoicon-api.pages.dev/api/icon/${t.symbol.toLowerCase()}`,alt:t.name}),t.name," →"]})},t.id))})]})}function Z2(){return me.jsx(FC,{basename:"/",children:me.jsxs(xy,{children:[me.jsx(Yl,{path:"/",element:me.jsx(V2,{})}),me.jsx(Yl,{path:"/:coinId/*",element:me.jsx(B2,{})})]})})}var Q2=function(){return null};const $2=TA`
+`;function V2(){const{isLoading:n,data:e}=Yc({queryKey:["allCoins"],queryFn:$C});return me.jsxs(F2,{children:[me.jsx(I2,{children:me.jsx(j2,{children:"코인"})}),n?me.jsx(q2,{children:"Loading..."}):me.jsx(W2,{children:e==null?void 0:e.map(t=>me.jsx(U2,{children:me.jsxs(Xl,{to:`/${t.id}`,state:{name:t.name},children:[me.jsx(G2,{src:`https://cryptoicon-api.pages.dev/api/icon/${t.symbol.toLowerCase()}`,alt:t.name}),t.name," →"]})},t.id))})]})}function Z2(){return me.jsx(FC,{basename:"/cointracker/",children:me.jsxs(xy,{children:[me.jsx(Yl,{path:"/",element:me.jsx(V2,{})}),me.jsx(Yl,{path:"/:coinId/*",element:me.jsx(B2,{})})]})})}var Q2=function(){return null};const $2=TA`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
